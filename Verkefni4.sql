@@ -25,7 +25,7 @@ DELIMITER ;
 
 /*
   @name: AircraftsRead
-  @role: Selects the a row from the Aircrafts table
+  @role: Selects a row from the Aircrafts table
   @parameters:
     aircraft_id CHAR(6)
   @created: 11-03-2016
@@ -336,9 +336,9 @@ CREATE VIEW PriceCategoryList AS
     validFrom              AS 'Valid from',
     validTo                AS 'Valid to',
     minimumPrice           AS 'Minimum price',
-    refundable             AS 'Refundble',
+    refundable             AS 'Refundable',
     seatNumberRestrictions AS 'Seat number restrictions',
-    classID                AS 'class'
+    classID                AS 'Class'
   FROM pricecategories;
 DELIMITER ;
 
